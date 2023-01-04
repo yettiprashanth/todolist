@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: lightgreen;
+}
+.section{
+  padding: 5rem;
+}
+.section-center{
+
+  width:90vw;
+  margin: 0 auto;
+  max-width: 35rem; 
+  margin-top: 8rem;
+ 
+
+}
+.section-center{
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+  
+
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
+.edit-btn .remove-btn{
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 1.0rem;
+  margin:0 0.1rem;
+  transition: all 0.3s linear;
+}
+.edit-btn{
+  color:lightgreen;
+}
+.remove-btn{
+  color:red;
+}
